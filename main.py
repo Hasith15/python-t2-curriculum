@@ -1,1 +1,1 @@
-from lesson1.classwork import string_shortcuts
+from lesson1.classwork import practice
