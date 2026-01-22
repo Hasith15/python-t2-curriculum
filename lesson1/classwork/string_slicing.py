@@ -16,7 +16,7 @@ print("Second to last letter:", word[-2])
 print(word[0:4])
 print(word[4:9])
 
-# Shortcuts: you can the start or stop blank
+# Shortcuts: you can have the start or stop blank
 print(word[:4])
 print(word[4:])
 

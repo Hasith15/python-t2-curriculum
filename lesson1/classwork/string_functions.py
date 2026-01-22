@@ -1,7 +1,7 @@
 text = "  Hello World  "
 print("Raw text:", text)
 
-print("Length:", len(text)) # print text including spaces
+print("Length:", len(text)) # print text's amount of letters including spaces
 
 print(text.lower()) # makes everthing lowercase
 print(text.upper()) # make everthing uppercase

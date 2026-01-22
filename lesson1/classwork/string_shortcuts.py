@@ -15,6 +15,6 @@ if "java" in sentence:
     print("Java is in the string")
 
 print("Py\"th\'on") # for using ' or " in a string, use the \
-print("Java\nPython") # the /n is like a line break
+print("Java\nPython") # the \n is like a line break
 
 print(" Age is " + str(16))
