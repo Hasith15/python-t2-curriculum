@@ -7,7 +7,7 @@ print(result)
 
 # build string by collecting pieces in a list, then joining
 letters = ["a", "p", "p", "l", "e"]
-built = "".join(letters) # .join(): building string from list, uses seperator whick function is called on
+built = "".join(letters) # .join(): building string from list, uses seperator which function is called on
 print(built)
 
 # make a new string with only the even index characters
