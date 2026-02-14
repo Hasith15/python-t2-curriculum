@@ -3,17 +3,29 @@
 # It should have an __init__ that takes name.
 # It should have a method called meow() that prints "<name> says meow!".
 # Create a Cat and call meow().
+class Cat:
+    def __init__(self, name):
+        self.name = name
+    def meow(self):
+        print(self.name, "says MEOW !")
 
-
-
+scratcher = Cat("Scratcher")
+scratcher.meow()
 # Problem 2
 # Create a class called Rectangle.
 # __init__ should take width and height.
 # Make a method area() that returns width * height.
 # Create a Rectangle and print its area.
+class rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):
+        return self.width * self.height
 
-
-
+rect = rectangle(5, 10)
+print(rect.area())
 # Problem 3
 # Create a class called Counter.
 # It starts at value 0.

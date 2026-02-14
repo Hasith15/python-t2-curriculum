@@ -1,0 +1,30 @@
+# a dictonary maps keys to values
+person = {
+    "name": "Alex",
+    "age": 15, 
+    "city": "Seattle"
+}
+# dictionaries cannot have the same key twice, but they can have the same values
+
+print(person)
+
+# print a value at a key
+print("Name: ", person["name"])
+print("Age: ", person["age"])
+
+# add a new key to your dictonary
+person["Favorite_food"] = "pizza"
+print(person)
+
+# modify an existing key in your dictionary
+person["age"] = 16
+print("New age:", person["age"])
+
+person["age"] = person["age"] + 1
+print("New age:", person["age"])
+
+# check if key is in dictionary
+print("age" in person)
+
+if "height" in person:
+    print("I know this person's height")
