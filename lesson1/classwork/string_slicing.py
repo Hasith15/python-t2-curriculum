@@ -12,7 +12,7 @@ print("Third letter:", word[2])
 print("Last letter:", word[-1])
 print("Second to last letter:", word[-2])
 
-# slicing: word[start:stop] (start is inclusive, stop is exclusive) [start,stop)
+# slicing: word[start:stop] (start is inclusive, stop is exclusive) [start,stop]
 print(word[0:4])
 print(word[4:9])
 
