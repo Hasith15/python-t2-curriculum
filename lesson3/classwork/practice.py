@@ -33,4 +33,4 @@ for i in range(10, 0, -1):
 print("________________________________________________________________________________________________________________________________________")
 a_word = input("GIVE ME A WORD")
 for i in range(len(a_word)):
-    print(index, word[index])
+    print(i, a_word[i])
