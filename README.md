@@ -15,6 +15,8 @@ The lessons cover:
 8. More turtle (colors, fills, positioning)
 9. More turtle (functions, patterns, mini-project)
 10. Final problem set (10 problems with points)
+## Running Turtle
+Use https://trinket.io/turtle to run turtle
 
 ### Sharing with Teachers via Live Share
 - Inside Codespaces, open the **Command Palette** (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
